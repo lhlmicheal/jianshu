@@ -1,0 +1,14 @@
+body {
+    background-image: url("../../resource/image/bg/bg_gray.png");
+    background-position: 0% 0%;
+    background-repeat: repeat-x repeat-y;
+    background-attachment: fixed;
+}
+h1,h2 {
+    background-color: burlywood;
+    font-family: Arial;
+}
+h3 {
+    background-color: cadetblue;
+    font-family: Helvetica;
+}
