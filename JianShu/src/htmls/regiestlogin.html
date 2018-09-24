@@ -4,27 +4,29 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="../styles/general.css" />
     <title>登陆/注册</title>
 </head>
 
-<body style="background-color:aliceblue">
-    <p1>WebV</p1>
-    <form action="">
-        NickName:
-        <br>
-        <input type="text" name="nickName">
-        <br> PhoneNumber:
-        <br>
-        <input type="text" name="phoneNumber">
-        <br> Password:
-        <br>
-        <input type="text" name="password">
-        <br> ConfirmPassword:
-        <br>
-        <input type="text" name="confirmPassword">
-        <br>
-        <input type="submit" name="submit">
-    </form>
+<body>
+    <!-- header -->
+    <div>
+        <a href="./main.html"> <img src="../../resource/image/logo_right_302_124.png" /> </a>
+    </div>
+    <div style="background-color:rgb(216, 211, 211); margin: 0pt auto; width: 320px; height:140px; border: 1px">
+        <form>
+            用户名: <input type="text" name="nickName">
+            <br />
+            密 码: <input type="password" name="password">
+            <br />
+            确认密码: <input type="password" name="confirmPassword">
+            <br />
+            邮箱: <input type="email" name="mail">
+            <br />
+            <input type="submit" name="submit">
+        </form>
+    </div>
+
 </body>
 
 </html>
